@@ -4,3 +4,4 @@ scikit-learn == 0.23.1
 xgboost == 1.2.1
 joblib == 0.14.1
 streamlit == 0.77.0
+networkx == 2.5.0
