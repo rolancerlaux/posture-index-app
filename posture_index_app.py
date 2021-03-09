@@ -48,7 +48,7 @@ st.subheader('See Inputed Parameters')
 st.write(user_input_df)
 
 # Define the func that predict
-model = joblib.load('XG_boost.joblib')
+model = joblib.load('model.joblib')
 def prediction():
 	predictions = model.predict(user_input_df)
 	return predictions
