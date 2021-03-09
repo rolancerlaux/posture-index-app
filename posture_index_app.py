@@ -4,7 +4,6 @@ import pandas as pd
 import joblib
 import streamlit as st
 import xgboost as xgb
-import matplotlib.pyplot as plt
 
 # Set the title
 st.title('Clinical Measure for RSJC')
