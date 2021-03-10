@@ -52,7 +52,14 @@ st.write(user_input_df)
 result = (neutral_relaxed_dif + rotation)/2
 
 # Calculate a new measure, the ratio (EV/TIR)
-ratio_raw = neutral_relaxed_dif/rotation
+def ratio():
+	try:
+		return neutral_relaxed_dif/rotation
+	except ZeroDivisionError:
+		return 0
+	
+# Calculate the ratio
+ratio_raw = ratio()
 
 # Transform these variables
 index = pd.Series(data = result, name = 'Posture Index')
