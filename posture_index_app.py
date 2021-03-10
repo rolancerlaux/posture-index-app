@@ -78,7 +78,7 @@ st.write(table)
 st.write('***')
 
 # Explanation
-st.write('The higher the index, more pronated are the Rearfoot-Shank Joint Complex is')
+st.write('The higher the index, more pronated the Rearfoot-Shank Joint Complex is')
 st.write('The Posture Ratio indicates the relative axis of the subtalar joint')
 
 st.write('***')
